@@ -1,0 +1,17 @@
+{
+  "name": "amerikan-2012",
+  "version": "1.0.0",
+  "description": "amerikxn sekli misali",
+  "main": "Kapsent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amerikxn",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.12.0",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.5",
+    "snekfetch": "^4.0.4"
+  }
+}
