@@ -1,7 +1,7 @@
 {
-  "name": "amerikan-2012",
+  "name": "bos altyapı ban ait degil",
   "version": "1.0.0",
-  "description": "amerikxn sekli misali",
+  "description": "bos altyapı ban ait degil",
   "main": "Kapsent.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
