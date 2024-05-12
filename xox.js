@@ -6,12 +6,12 @@ name: "xox",
 help: "xox @Kullanıcı/ID",
 category: "kullanici"      
 },
-exclosive: async (client, message, args, embed, prefix) => {
+crystal: async (client, message, args, embed, prefix) => {
 let member = message.mentions.members.first() || message.guild.members.cache.get(args[0])
 if (!member) {
 return message.reply({ content: "Bir üye etiketle ve tekrardan dene!" }).sil(15)
 }
-let kanallar = ["xox", "xox-chat","🤖┊bot-komut"]
+let kanallar = ["xox", "xox-chat","🤖┊bot-komut","📨│bot-commands"]
 if (!kanallar.some((x) => message.channel.name.toLowerCase().includes(x))) return message.reply({content: `${message.guild.emojis.cache.find(x => x.name == "kapsent_no")} xox kanallarında kullanabilirsiniz.`}).sil(15)
 if(member.id === message.author.id) return message.reply({content: `${message.guild.emojis.cache.find(x => x.name == "kapsent_no")} Kendin ile xox oynayamazsın.`}).sil(15)
 new TicTacToe({
